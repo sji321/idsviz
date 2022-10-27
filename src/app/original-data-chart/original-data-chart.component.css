@@ -1,0 +1,13 @@
+.dygraph-axis-label.dygraph-axis-label-y {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  float: right;
+  margin: 0 0 10px 10px;
+  font-size: 5px;
+}
+.dygraph-legend { text-align: left; }
+#linechart .dygraph-legend { background-color: #101015; }
+
+
+
+

@@ -1,0 +1,31 @@
+<svg class="svgchart" id="{{ 'pcpchart-' + uniqueChartIndexKey }}"></svg>
+
+
+<!-- Modal dialog -->
+<ng-template #PCPAttributeSelectionDialog let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">Settings</h4>
+  </div>
+  <div class="modal-body">
+    <div class="row">
+      <form>
+        <div class="form-group row">
+          <label for="W" class="col-sm-6 col-form-label">Width: </label>
+          <div class="col-sm-6">
+            <input type="text" class="form-control" id="W" (change)="dlgEventWithChange($event)" value="{{d3a.width }}">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="H" class="col-sm-6 col-form-label">Height: </label>
+          <div class="col-sm-6">
+            <input type="text" class="form-control" id="H" (change)="dlgEventHeightChange($event)"  value="{{d3a.height}}" >
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-primary" (click)="dlgBtnUpdate()">Update</button>
+    <button type="button" class="btn btn-dark" aria-label="Cancel" (click)="modalSettingDlg.close()">Cancel</button>
+  </div>
+</ng-template>

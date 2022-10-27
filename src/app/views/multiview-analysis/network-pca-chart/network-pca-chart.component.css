@@ -1,0 +1,31 @@
+.active {
+  background-color: #13a613;
+}
+
+/*:host:hover .div-resizable-triangle {*/
+/*  opacity: 1;*/
+/*}*/
+
+/*.div-resizable-handle {*/
+/*  position: absolute;*/
+/*  width: 10px;;*/
+/*  height: 10px;;*/
+/*  bottom: 0;*/
+/*  right: 0;*/
+/*  cursor: se-resize;*/
+/*}*/
+
+/*.div-resizable-triangle {*/
+/*  pointer-events: none;*/
+/*  opacity: 0;*/
+/*  transition: opacity ease-in-out 0.2s;*/
+/*  position: absolute;*/
+/*  width: 0;*/
+/*  height: 0;*/
+/*  border-left: 5px solid transparent;*/
+/*  border-top: 5px solid transparent;*/
+/*  border-right: 5px solid #ccc;*/
+/*  border-bottom: 5px solid #ccc;*/
+/*  bottom: 0;*/
+/*  right: 0;*/
+/*}*/

@@ -1,0 +1,118 @@
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/cursor */
+.cursor_zoom-in{
+    cursor: zoom-in;
+}
+.cursor_crosshair{
+  cursor: crosshair;
+}
+.cursor_grab{
+  cursor: grab;
+}
+
+.data_verticaltext_label {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  left: -60px;
+  top: 100px;
+  position: absolute;
+  color: #000;
+  text-transform: uppercase;
+  font-size:14px;
+  font-weight:bold;
+  width: 150px;
+}
+
+.data_verticaltext_top {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  left: -10px;
+  top: 50px;
+  position: absolute;
+  color: #000;
+  text-transform: uppercase;
+  font-size:13px;
+  font-weight:bold;
+}
+
+.data_verticaltext_bottom {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  left: -20px;
+  top: 190px;
+  position: absolute;
+  color: #000;
+  text-transform: uppercase;
+  font-size:13px;
+  font-weight:bold;
+}
+
+
+
+.heatmap_verticaltext_label {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  left: -60px;
+  top: 60px;
+  position: absolute;
+  color: #000;
+  text-transform: uppercase;
+  font-size:14px;
+  font-weight:bold;
+  width: 150px;
+}
+
+.heatmap_verticaltext_top {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  left: -20px;
+  top: 25px;
+  position: absolute;
+  color: #000;
+  text-transform: uppercase;
+  font-size:13px;
+  font-weight:bold;
+}
+
+
+.heatmap_verticaltext_bottom {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  left: -28px;
+  top: 110px;
+  position: absolute;
+  color: #000;
+  text-transform: uppercase;
+  font-size:13px;
+  font-weight:bold;
+}
+
+.barcharttooltip {
+  position: absolute;
+  text-align: center;
+  width: 60px;
+  height: 28px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}

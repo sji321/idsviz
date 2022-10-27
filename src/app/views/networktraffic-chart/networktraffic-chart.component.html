@@ -1,0 +1,38 @@
+<div id="heatmap-container" class="d-flex justify-content-between">
+  <div id="heatmap-label" class="col-auto align-top" style="width:38px;">
+    <div class="heatmap_verticaltext_label">Subjective Logic</div>
+  </div>
+
+  <div id="heatmap-text" class="col-auto align-top" style="width:38px;">
+    <div class="heatmap_verticaltext_top">Hourly</div>
+    <div class="heatmap_verticaltext_bottom">Minutely</div>
+  </div>
+
+  <div id="heatmap-viz" class="flex-fill col-auto align-top" style="background-color: lightgray;">
+    <div><svg id="heatmapVIZ24hr" style="width: 100%; height: 82px; margin: 0; padding: 0;"></svg></div>
+    <div><svg id="heatmapVIZ60min" style="width: 100%; height: 82px; margin: 0; padding: 0;"></svg></div>
+  </div>
+</div>
+
+<div class="row">
+  <div id="main-container" class="d-flex justify-content-between">
+    <div id="left-label" class="col-auto align-top">
+      <div class="data_verticaltext_label">Network Traffic</div>
+    </div>
+
+    <div id="left-content" class="col-auto align-top">
+      <div class="data_verticaltext_top">Normal</div>
+      <div class="data_verticaltext_bottom">Abnormal</div>
+    </div>
+
+    <div id="center-content" class="flex-fill bg-success">
+      <div class="cursor_crosshair" id="normal_linechart" #normal_linechart style="background-color: #FFFFFF; height:120px;"></div>
+      <div class="cursor_grab"  id="abnormal_linechart" #abnormal_linechart style="background-color: #FFFFFF; height:120px;"></div>
+    </div>
+
+    <div id="right-content" class="col-auto align-top">
+      <!--      <button type="button" class="btn btn-dark btn-sm" style="float:right;" (click)="closeGraph()">X</button>-->
+      <div id="status" style="width:250px; font-size:0.8em; padding-top:5px;"></div>
+    </div>
+  </div>
+</div>
